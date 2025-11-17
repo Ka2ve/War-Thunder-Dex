@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>War Thunder Dex - Legal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #3b3b3b;
+      color: #ffffff;
+      max-width: 800px;
+      margin: 40px auto;
+      line-height: 1.6;
+      padding: 0 20px;
+    }
+    h1, h2 { color: #ffffff; }
+    a { color: #00aaff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ul { margin-left: 20px; }
+
+    .tabs {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .tab-button {
+      background: #555;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+
+    .tab-button.active {
+      background: #00aaff;
+    }
+
+    .tab-button:hover {
+      background: #0077cc;
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="tabs">
+    <button class="tab-button active" onclick="showTab('terms')">Terms of Service</button>
+    <button class="tab-button" onclick="showTab('privacy')">Privacy Policy</button>
+  </div>
+
+  <div id="terms" class="tab-content active">
+    <h1>War Thunder Dex - Terms of Service</h1>
+    <p>The following Terms of Service apply to the use of the <strong>War Thunder Dex</strong> Discord bot.</p>
+
+    <h2>Farming</h2>
+    <p>Farming is not allowed. This includes creating multiple servers or accounts for the purpose of gaining an unfair advantage in War Thunder Dex.</p>
+
+    <h2>Exploitation</h2>
+    <p>Using bugs, glitches, or any other methods to exploit the bot for unfair benefits is strictly prohibited.</p>
+
+    <h2>Trading</h2>
+    <p>When trading, users may not scam others. Trades should follow the official values and rarities listed in the War Thunder Dex Discord server.</p>
+
+    <h2>Cross-Dex Trading</h2>
+    <p>You may not trade War Thunder Dex vehicles or items for anything from other Dexes. For example, trading between War Thunder Dex and War Tycoon Dex is not permitted.</p>
+
+    <h2>Enforcement</h2>
+    <p>By using the War Thunder Dex Discord bot, you accept that:</p>
+    <ul>
+      <li>You are responsible for your actions while using the bot.</li>
+      <li>Violating any of these terms may result in a blacklist from using War Thunder Dex.</li>
+      <li>All decisions made by the War Devs Team are final.</li>
+      <li>Continued use of the bot means you agree to any future updates or changes to these Terms of Services.</li>
+    </ul>
+  </div>
+
+  <!-- Privacy Policy -->
+  <div id="privacy" class="tab-content">
+    <h1>Privacy Policy</h1>
+    <p>Last updated: October 23rd, 2025</p>
+
+    <h2>1. Information We Collect</h2>
+    <p>We may collect the following information when you use our Discord bot:</p>
+    <ul>
+      <li>Discord username and ID</li>
+      <li>Server and channel IDs where the bot is used</li>
+      <li>Bot usage statistics (commands used, errors, etc.)</li>
+    </ul>
+
+    <h2>2. How We Use Your Information</h2>
+    <p>Your information is used to:</p>
+    <ul>
+      <li>Operate and improve the bot</li>
+      <li>Detect Farms</li>
+      <li>Respond to support requests</li>
+      <li>Ensure compliance with Discord guidelines and our TOS</li>
+    </ul>
+
+    <h2>3. Data Sharing and Third-Party Services</h2>
+    <p>We do not collect any personal information.</p>
+
+    <h2>4. Data Security</h2>
+    <p>We take reasonable steps to protect your information. Our services are hosted on a platform with built-in DDoS protection and other security measures to help prevent unauthorized access to the bot.</p>
+
+    <h2>5. Contact Us</h2>
+    <p>If you have questions about this Privacy Policy, please contact us at:</p>
+    <ul>
+      <li>Email: <a href="mailto:kave74347@gmail.com">kave74347@gmail.com</a></li>
+      <li>Email: <a href="mailto:twitcherboy123@gmail.com">twitcherboy123@gmail.com</a></li>
+      <li>Discord: ka._.ve</li>
+      <li>Discord: lingonjr</li>
+      <li>Discord Server: <a href="https://discord.gg/hqjSjYpr3S" target="_blank">Join our server</a></li>
+    </ul>
+  </div>
+
+  <script>
+    function showTab(tabId) {
+      document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+      document.querySelector(`.tab-button[onclick="showTab('${tabId}')"]`).classList.add('active');
+      document.getElementById(tabId).classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
