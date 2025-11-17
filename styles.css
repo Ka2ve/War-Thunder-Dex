@@ -1,0 +1,63 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #3b3b3b;
+  color: #ffffff;
+  max-width: 800px;
+  margin: 40px auto;
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+h1, h2 {
+  color: #ffffff;
+}
+
+a {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+/* Tabs layout */
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Tab buttons */
+.tab-button {
+  background: #555;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.tab-button.active {
+  background: #00aaff;
+}
+
+.tab-button:hover {
+  background: #0077cc;
+}
+
+/* Tab content visibility */
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
