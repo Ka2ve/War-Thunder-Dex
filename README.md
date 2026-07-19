@@ -1,7 +1,7 @@
 The Terms Of Service of War Thunder Dex
 
 # Farming
-Farming is not allowed (meaning spam creating servers for War Thunder Dex to gain an unfair advantage)
+Farming is allowed up to 5 servers (meaning spam creating servers for War Thunder Dex to catch vehicles advantage)
 
 # Exploitation
 Using bugs or finding ways to exploit the bot to gain unfair advantages over others is not tolerated
