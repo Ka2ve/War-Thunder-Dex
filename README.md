@@ -8,7 +8,7 @@ Farming is currently allowed up to 5 farms per person (shared farms count) as of
 Example: Trading War Thunder Dex cards with AviationDex cards or even real money, virtual game items or anything else is prohibited, **War Thunder Dex cards for War Thunder Dex cards nothing else.**
 
 * Scamming and values
-You should always follow https://discord.com/channels/1434865918642487308/1434865919565365338 when trading and to always keep in mind the rarity of events or specials and that bad trades even if follow values may be seen as a scam unless both sides completely agree or being aware of the overpay, underpay or a rarity deficit 
+You should always follow [Values](https://discord.com/channels/1434865918642487308/1434865919565365338) when trading and to always keep in mind the rarity of events or specials and that bad trades even if follow values may be seen as a scam unless both sides completely agree or being aware of the overpay, underpay or a rarity deficit 
 
  **3 • Death Threats**
 You should never ever send death threats to someone over cards or even stuff like "Kys", breaking this will result in a timed blacklist remember we are here to have fun it is NEVER that serious.
