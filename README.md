@@ -1,4 +1,4 @@
-# Bot Terms Of Service 
+# War Thunder Dex Terms Of Service 
 
  **1 • Farming**
 Farming is currently allowed up to 5 farm servers per person (shared farms count) as of **12/6/2026** and anyone caught above the limit will be blacklisted, and if they would like to be unblacklisted they will have to face punishment first which is: Working out how many excess servers they had, then checking how many vehicles were caught in these servers and then totalling the amount to delete from their inventory in a fully random purge, the amount is specific but the vehicles chosen are completely random, if the user loses a booster vehicle that is reimbursed, anything else will not be given back.
